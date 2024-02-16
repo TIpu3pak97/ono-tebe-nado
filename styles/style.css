@@ -1,1 +1,269 @@
-/* место для вашего кода */
+html{background-color: #000;}
+
+.header{
+    padding: 92px 24px 96px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    width: 148px;
+    height: 105px;
+    justify-content: center;
+    margin: 0 184px 0 36px;
+}
+
+.nav{
+    display: flex;
+    gap: 13px;
+    text-decoration: none;
+}
+
+.nav__lots{
+    border-bottom: 1px #000 solid;
+}
+
+.nav__about{
+    border-bottom: 1px #000 solid;
+}
+
+.adres{
+    list-style: none;
+    text-underline-offset: 4px;
+    font-style: normal;
+}
+
+.cover{
+    background-image: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cover-text{
+    padding: 165px 50px 0px 50px;
+}
+
+.cover-text-headline{
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 30px;
+    display: block;
+}
+
+.cover-text-headline__center{
+    text-align: center;
+}
+
+.cover-text-headline__right{
+    text-align: right;
+}
+
+.cover-text-headline__spacing{
+    letter-spacing: 60px;
+}
+
+.cover-bottom{
+    margin-top: 75px ;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+.cover-bottom__button{
+    padding: 12px 32px 11px 31px;
+    background-color: rgb(0, 0, 0, 0.0);
+    color: white;
+    border: 1px #fff solid;
+    text-transform: uppercase;
+}
+
+.cover-bottom__text{
+    word-spacing: 10px;
+}
+
+.lots{
+    display: flex;
+    flex-direction: column;
+}
+
+.lots__title{
+    margin-top: 179px;
+    margin-left: 64px;
+    margin-bottom: 27px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cards{
+    display: flex;
+    color: white;
+    margin: 0 25px;
+    justify-content: space-between;
+    gap: 25px;
+    flex-grow: 1;
+}
+
+.cards__arlicles{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    gap: 25px;
+    width: 334px;
+    min-height: 563px;
+    padding: 51px 40px 48px 40px;
+}
+
+.card_type_film{
+    background-image: url('../images/card-lot-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_book{
+    background-image: url('../images/card-lot-02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_picture{
+    background-image: url('../images/card-lot-03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cards-title{
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+
+.cards-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-link{
+   text-decoration-line: none; 
+}
+
+.under-cards{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 64px;
+}
+
+.about{
+    margin: 146px 24px 0 24px;
+    display: grid;
+    grid-template-columns: repeat( 3, 33%);
+    column-gap: 25px;
+}
+
+.about-logo{
+    margin: auto;
+    border-radius: 120px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    width: 240px;
+}
+
+.about-logo-picture{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 141px;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-left: 0;
+}
+
+.about-text{
+    margin-right: 40px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 20px;
+    font-weight: 400;
+    overflow-wrap:normal;
+}
+
+.about-text_lettering{
+    margin-top: 24px;
+}
+
+.footer{
+    margin: 180px 50px 0 50px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-images-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.img-link-youtube{
+    background-image: url('../images/yt.svg');
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-link-vk{
+    background-image: url('../images/vk.svg');
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-link-pinterest{
+    background-image: url('../images/pinterest.svg');
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-addres{
+    list-style: none;
+    text-underline-offset: 4px;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+
+}
