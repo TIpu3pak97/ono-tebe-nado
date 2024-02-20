@@ -103,7 +103,7 @@ html {
 .lots__title {
     margin-top: 127px;
     margin-left: 64px;
-    margin-bottom: 27px; 
+    margin-bottom: 27px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
@@ -164,7 +164,7 @@ html {
 }
 
 .card-link {
-   text-decoration-line: none; 
+    text-decoration-line: none;
 }
 
 .under-cards {
